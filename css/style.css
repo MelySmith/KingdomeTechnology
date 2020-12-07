@@ -1,0 +1,1650 @@
+aside#menu-cortina {
+	width: 290px;
+    height: 100%;
+    display: none;
+    margin: 0;
+    float: none;
+    position: fixed;
+    
+    top: 0;
+    right: -290px;
+    z-index: 99999;
+    
+    background: rgba(0, 0, 0, 0.95);
+}
+
+aside#menu-cortina a {
+	width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    
+    
+	transition: all 0.3s ease-in;
+     text-decoration: none;
+  
+}
+
+
+aside#menu-cortina a i {
+    color: #a08e00;
+	font-size: 1.35em;
+    padding: 10px 0 0 0;
+	transition: all 0.3s ease-in;
+     text-decoration: none;
+}
+aside#menu-cortina a:hover {
+    color: #a08e00;
+    background: #a08e00;
+	transition: all 0.3s ease-in;
+     text-decoration: none;
+}
+aside#menu-cortina a:hover i {
+    background: #5ad922;
+    color: #000000;
+    transition: all 0.15s ease-out;
+     text-decoration: none;
+}
+
+aside#menu-cortina a#abrir {
+	left: -50px;
+    color: #a08e00;
+    z-index: 10;
+    background: #09f;
+    
+     text-decoration: none;
+    
+
+}
+aside#menu-cortina a#cerrar {
+	left: -50px;
+    color: #fff;
+    z-index: 9;
+    background: #a08e00;
+    
+     text-decoration: none;
+}
+
+aside#menu-cortina nav#menu-moviles {
+	width: 80%;
+    height: auto;
+    display: block;
+    margin: 12% 10% 10% 10%;
+    position: relative;
+    float: none;
+}
+aside#menu-cortina nav#menu-moviles a {
+	width: 100%;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    position: relative;
+    float: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25em;
+}
+aside#menu-cortina nav#menu-moviles a:hover {
+	color: #a08e00;
+}
+
+
+
+
+
+aside#wpp {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0;
+    float: none;
+    position: fixed;
+    
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+}
+aside#wpp a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    text-decoration: none;
+    background: #107c07;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.55);
+    transition: all 0.3s ease-in;
+}
+aside#wpp a i {
+    display: block;
+    font-size: 2.15em;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    transition: all 0.3s ease-in;
+}
+aside#wpp a:hover {
+    background: #fff;
+    transition: all 0.3s ease-in;
+}
+aside#wpp a:hover i {
+    color: #107c07;
+    transition: all 0.3s ease-in;
+}
+
+
+
+
+
+
+header {
+    width: 100%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+    z-index: 99;
+    
+    background: #0c1119;
+}
+header article {
+    width: 100%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+header article a#logo {
+    width: 297px;
+    height: 100px;
+    display: block;
+    margin: -100px 0 0px 100px;
+    float: left;
+    position: relative;
+}
+header article a#logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+
+
+header article nav#menu-principal {
+    width: 600px;
+    height: 80px;
+    display: block;
+    margin: 10px 0 10px 0;
+    float: right;
+    position: relative;
+}
+header article nav#menu-principal a {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    padding: 30px 0px 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease-in;  
+}
+header article nav#menu-principal a:hover {
+    color: #a08e00;
+
+}
+
+
+
+header article nav#menu-secundario {
+    width: 300px;
+    height: 80px;
+    display: block;
+    margin: 10px 0 10px 0;
+    left: 1200px;
+    float: left;
+    position: relative;
+}
+header article nav#menu-secundario a {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    padding: 30px 0px 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease-in;  
+}
+header article nav#menu-secundario a:hover {
+    color: #a08e00;
+
+}
+
+header article a#mapita {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+}
+header article a#mapita img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+
+main {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+     background: #131b26;
+}
+main section#banner-foto {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    padding: 100px 0px 0px 0px;
+    
+    background: #131b26;
+ }
+
+main section#banner-foto article#celuco {
+    width: 100%;
+    height: 1200px;
+    display: block;
+    margin: 0;
+    float: none;
+    position: relative;
+    
+    background: url(../img/banerchulitofinal.svg) no-repeat top right fixed;
+    background-size: cover;
+}
+
+
+
+/* Lasiguiente seccion kul que es del poco de celucos*/
+
+
+
+
+main section#celucos-marca {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    background: #131b26;
+   
+}
+
+
+main section#celucos-marca article#frase-inicio {
+    width: 100%;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+}
+
+main section#celucos-marca article#frase-inicio h1 {
+    text-align: left;
+    font-size: 2.75em;
+    color: #fff;
+    padding: 100px 0 100px 160px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*
+
+                        LOS CELUCOS IPHONE
+        */
+
+
+main section#celucos-marca article#iphone  { 
+    width: 1580px;
+    height: 440px;
+    display: block;
+    margin: 0 160px 160px 160px;
+    float: left;
+    position: relative;
+    
+   
+}
+
+main section#celucos-marca article figure { 
+    width: 364px;
+    height: 440px; 
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    
+   
+}
+
+main section#celucos-marca article#iphone figure#iphone01 { 
+
+    width: 364px;
+    height: 440px;
+    display: block;
+    margin: 0 40px 0 0;
+    float: left;
+    position: relative;
+    
+    background: #FFA525;
+    border-radius: 50px;
+}
+
+main section#celucos-marca article#iphone figure#iphone01 img { 
+
+    display: block;
+    margin: 20px 0 0 46px;
+    float: none;
+    position: relative;
+    
+   }
+
+main section#celucos-marca article#iphone figure#iphone01 p { 
+    
+    width: 280px;
+    height: 45px;
+    left: 198px;
+    top: 552px;
+    padding: 12px 0 0 80px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+    text-align: center;
+    
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+}
+
+
+main section#celucos-marca article#iphone figure#iphone02 { 
+
+    width: 364px;
+    height: 440px;
+    display: block;
+    margin: 0 40px 0 0;
+    float: left;
+    position: relative;
+    
+    background: #FFA525;
+    border-radius: 50px;
+}
+
+main section#celucos-marca article#iphone figure#iphone02 p { 
+    
+    width: 280px;
+    height: 45px;
+    left: 198px;
+    top: 552px;
+   padding: 12px 0 0 80px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+    text-align: center;
+    
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+}
+
+main section#celucos-marca article#iphone figure#iphone02 img { 
+
+    display: block;
+    margin: 20px 0 0 46px;
+    float: none;
+    position: relative;
+    
+   }
+
+main section#celucos-marca article#iphone figure#iphone03 {
+
+    width: 364px;
+    height: 440px;
+    display: block;
+    margin: 0 40px 0 0;
+    float: left;
+    position: relative;
+    
+    background: #FFA525;
+    border-radius: 50px;
+}
+
+main section#celucos-marca article#iphone figure#iphone03 p { 
+    
+    width: 280px;
+    height: 45px;
+    left: 198px;
+    top: 552px;
+  padding: 12px 0 0 80px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+    text-align: center;
+    
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+}
+
+main section#celucos-marca article#iphone figure#iphone03 img { 
+
+    display: block;
+    margin: 20px 0 0 46px;
+    float: none;
+    position: relative;
+    
+   }
+
+main section#celucos-marca article#iphone figure#iphone04 { 
+
+    width: 364px;
+    height: 440px;
+    display: block;
+    margin: 0 0 0 0;
+    float: left;
+    position: relative;
+    
+    background: #FFA525;
+    border-radius: 50px;    
+}
+
+main section#celucos-marca article#iphone figure#iphone04 p { 
+    
+    width: 280px;
+    height: 45px;
+    left: 198px;
+    top: 552px;
+   padding: 12px 0 0 80px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+    text-align: center;
+    
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+}
+
+main section#celucos-marca article#iphone figure#iphone04 img { 
+
+    display: block;
+    margin: 20px 0 0 46px;
+    float: none;
+    position: relative;
+    
+   }
+
+
+        /*
+
+                        LOS CELUCOS SAMSUUNG
+        */
+
+
+main section#celucos-marca article#samsung  { 
+    width: 1580px;
+    height: 440px;
+    display: block;
+    margin: 0 160px 160px 160px;
+    float: left;
+    position: relative;
+    
+
+}
+
+main section#celucos-marca article#samsung figure { 
+    width: 364px;
+    height: 440px; 
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    
+   
+}
+
+main section#celucos-marca article#samsung figure#samsung01 { 
+
+    width: 364px;
+    height: 440px;
+    display: block;
+    margin: 0 40px 0 0;
+    float: left;
+    position: relative;
+    
+    background: #00ADD5;
+    border-radius: 50px;
+}
+
+main section#celucos-marca article#samsung figure#samsung01  p { 
+    
+    width: 280px;
+    height: 45px;
+    left: 198px;
+    top: 552px;
+  padding: 12px 0 0 80px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+    text-align: center;
+    
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+}
+
+main section#celucos-marca article#samsung figure#samsung01 img { 
+
+    display: block;
+    margin: 20px 0 0 46px;
+    float: none;
+    position: relative;
+    
+   }
+
+
+main section#celucos-marca article#samsung figure#samsung02 { 
+
+    width: 364px;
+    height: 440px;
+    display: block;
+    margin: 0 40px 0 0;
+    float: left;
+    position: relative;
+    
+    background: #00ADD5;
+    border-radius: 50px;
+}
+
+main section#celucos-marca article#samsung figure#samsung02  p { 
+    
+    width: 280px;
+    height: 45px;
+    left: 198px;
+    top: 552px;
+  padding: 12px 0 0 80px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+    text-align: center;
+    
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+}
+
+main section#celucos-marca article#samsung figure#samsung02 img { 
+
+    display: block;
+    margin: 20px 0 0 46px;
+    float: none;
+    position: relative;
+    
+   }
+
+
+main section#celucos-marca article#samsung figure#samsung03 {
+
+    width: 364px;
+    height: 440px;
+    display: block;
+    margin: 0 40px 0 0;
+    float: left;
+    position: relative;
+    
+    background: #00ADD5;
+    border-radius: 50px;
+}
+
+main section#celucos-marca article#samsung figure#samsung03  p { 
+    
+    width: 280;
+    height: 45px;
+    left: 198px;
+    top: 552px;
+padding: 12px 0 0 80px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+    text-align: center;
+    
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+}
+
+main section#celucos-marca article#samsung figure#samsung03 img { 
+
+    display: block;
+    margin: 20px 0 0 46px;
+    float: none;
+    position: relative;
+    
+   }
+
+
+main section#celucos-marca article#samsung figure#samsung04 { 
+
+    width: 364px;
+    height: 440px;
+    display: block;
+    margin: 0 0 0 0;
+    float: left;
+    position: relative;
+    
+    background: #00ADD5;
+    border-radius: 50px;
+}
+
+main section#celucos-marca article#samsung figure#samsung04  p { 
+    
+    width: 280px;
+    height: 45px;
+    left: 198px;
+    top: 552px;
+    padding: 12px 0 0 80px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+    text-align: center;
+    
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+}
+
+main section#celucos-marca article#samsung figure#samsung04 img { 
+
+    display: block;
+    margin: 20px 0 0 46px;
+    float: none;
+    position: relative;
+    
+   }
+
+       /*
+
+                        LOS CELUCOS XIAMOOMIII
+        */
+
+
+main section#celucos-marca article#xiaomi { 
+    width: 1580px;
+    height: 440px;
+    display: block;
+    margin: 0 160px 160px 160px;
+    float: left;
+    position: relative;
+    
+   
+}
+
+main section#celucos-marca article#xiaomi figure { 
+    width: 364px;
+    height: 440px; 
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    
+    
+}
+
+main section#celucos-marca article#xiaomi figure#xiaomi01 { 
+
+    width: 364px;
+    height: 440px;
+    display: block;
+    margin: 0 40px 0 0;
+    float: left;
+    position: relative;
+    
+    background: #D10869;
+    border-radius: 50px;
+}
+
+main section#celucos-marca article#xiaomi figure#xiaomi01  p { 
+    
+    width: 280px;
+    height: 45px;
+    left: 198px;
+    top: 552px;
+   padding: 12px 0 0 80px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+    text-align: center;
+    
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+}
+main section#celucos-marca article#xiaomi figure#xiaomi01 img { 
+
+    display: block;
+    margin: 20px 0 0 46px;
+    float: none;
+    position: relative;
+    
+   }
+
+main section#celucos-marca article#xiaomi figure#xiaomi02{ 
+
+    width: 364px;
+    height: 440px;
+    display: block;
+    margin: 0 40px 0 0;
+    float: left;
+    position: relative;
+    
+    background: #D10869;
+    border-radius: 50px;
+}
+
+main section#celucos-marca article#xiaomi figure#xiaomi02  p { 
+    
+    width: 280px;
+    height: 45px;
+    left: 198px;
+    top: 552px;
+   padding: 12px 0 0 80px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+    text-align: center;
+    
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+}
+main section#celucos-marca article#xiaomi figure#xiaomi02 img { 
+
+    display: block;
+    margin: 20px 0 0 46px;
+    float: none;
+    position: relative;
+    
+   }
+
+
+main section#celucos-marca article#xiaomi figure#xiaomi03 {
+
+    width: 364px;
+    height: 440px;
+    display: block;
+    margin: 0 40px 0 0;
+    float: left;
+    position: relative;
+    
+    background: #D10869;
+    border-radius: 50px;
+}
+
+main section#celucos-marca article#xiaomi figure#xiaomi03  p { 
+    
+    width: 280px;
+    height: 45px;
+    left: 198px;
+    top: 552px;
+   padding: 12px 0 0 80px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+    text-align: center;
+    
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+}
+main section#celucos-marca article#xiaomi figure#xiaomi03 img { 
+
+    display: block;
+    margin: 20px 0 0 46px;
+    float: none;
+    position: relative;
+    
+   }
+
+
+main section#celucos-marca article#xiaomi figure#xiaomi04 { 
+
+    width: 364px;
+    height: 440px;
+    display: block;
+    margin: 0 0 0 0;
+    float: left;
+    position: relative;
+    
+    background: #D10869;
+    border-radius: 50px;
+}
+
+main section#celucos-marca article#xiaomi figure#xiaomi04  p { 
+    
+    width: 280px;
+    height: 45px;
+    left: 198px;
+    top: 552px;
+  padding: 12px 0 0 80px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+    text-align: center;
+    
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+}
+main section#celucos-marca article#xiaomi figure#xiaomi04 img { 
+
+    display: block;
+    margin: 20px 0 0 46px;
+    float: none;
+    position: relative;
+    
+   }
+
+/* bOTON PARA ABIRR Y CERRAR ELA CORDEON */
+
+section#descubrir{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin:  0 auto;
+    float: left;
+    padding: 0 0 130px 0;
+
+}
+
+.accordion {
+
+    background: none;
+  cursor: pointer;
+  padding: 18px;
+  margin: 0 0 0 810px;
+  width: 15%;
+  text-align: center;
+border: 3px solid #FFA525;
+  outline: none;
+  transition: 0.4s;
+    float: none;
+    
+    box-shadow: 5px 8px 11px rgba(0, 0, 0, 0.25);
+border-radius: 51px;
+    color: #a08e00;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24 px;
+
+
+
+}
+
+
+/* colorcito */
+.active, .accordion:hover {
+    background-color: none;
+    color: #7e710e;
+    transform: scale(0.9);
+}
+
+/* hidden by default */
+.mas-celucos-bacanos {
+  padding: 20px 0 0 0;
+  background-color: #131b26;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+    display: block;
+    margin: 0 auto;
+    height: 720px;
+    width: 1600px;
+    
+
+}
+
+
+
+
+
+/*
+---aca viene el super carruselllll
+ ---------------------------------------------- */
+
+ [class^="swiper-button-"] {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.swiper-slide {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 80%;
+  height: 720px;
+  float: left;
+  -webkit-transition: opacity 0.6s ease, -webkit-transform 0.3s ease;
+  transition: opacity 0.6s ease, -webkit-transform 0.3s ease;
+  transition: opacity 0.6s ease, transform 0.3s ease;
+  transition: opacity 0.6s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.swiper-container.nav-slider {
+  width: 20%;
+  padding-left: 5px;
+}
+.swiper-container.nav-slider .swiper-slide {
+  cursor: pointer;
+  opacity: 0.4;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.swiper-container.nav-slider .swiper-slide.swiper-slide-active {
+  opacity: 1;
+}
+.swiper-container.nav-slider .swiper-slide .content {
+  width: 100%;
+}
+.swiper-container.nav-slider .swiper-slide .content .title {
+  font-size: 20px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+   
+}
+.swiper-container:hover .swiper-button-prev,
+.swiper-container:hover .swiper-button-next {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+}
+.swiper-container.loading {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.swiper-slide {
+  overflow: hidden;
+}
+.swiper-slide .slide-bgimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.swiper-slide .entity-img {
+  display: none;
+width: 100%;
+    height: 100%;
+}
+.swiper-slide .content {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 50%;
+  padding-left: 5%;
+  color: #fff;
+}
+.swiper-slide .content .title {
+  font-size: 2.6em;
+  font-weight: bold;
+  margin-bottom: 30px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+  
+   
+}
+.swiper-slide .content .caption {
+  display: block;
+  font-size: 13px;
+  line-height: 1.4;
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease, -webkit-transform 0.7s ease;
+  transition: opacity 0.3s ease, -webkit-transform 0.7s ease;
+  transition: opacity 0.3s ease, transform 0.7s ease;
+  transition: opacity 0.3s ease, transform 0.7s ease, -webkit-transform 0.7s ease;
+}
+.swiper-slide .content .caption.show {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+}
+
+[class^="swiper-button-"] {
+  width: 44px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.swiper-button-prev {
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
+}
+
+.swiper-button-next {
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+}
+
+
+
+
+
+
+
+
+/*-----------------------carrusel fin---------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+    /*se VIENEN LOS SRVICIOSSS BROOOO ME AMO UWU*/
+
+main section#accesorios-bonis { 
+	width: 100%;
+    height: 720px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    padding: 70px 25px  0 27px;
+	
+    
+    background: url(../img/pelaita.jpg) no-repeat top right fixed #d4a520;
+    background-size: cover;
+    
+} 
+
+main section#accesorios-bonis article#accesorios {
+	width: 100%;
+    height: 720px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+
+    
+}
+
+main section#accesorios-bonis article#accesorios h2 {
+
+    right: 733px;
+    top: 1698px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    /* or 132% */
+
+    letter-spacing: 1px;
+
+    color: #131b26;
+}
+
+main section#accesorios-bonis article#accesorios p {
+
+    height: 206px;
+    left: 171px;
+    right: 730px;
+    top: 1861px;
+  
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+   
+
+    color: #131b26;
+
+}
+/*
+main section#accesorios-bonis article#foticos-accesorios {
+	width: 50%;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+}
+
+main section#accesorios-bonis article#accesorios figure {
+    width: 280px;
+    height: 280px;
+    display: block;
+    margin: 0 20px 0 0;
+    float: left;
+    position: relative;
+}
+main section#accesorios-bonis article figure:nth-child(4) {
+	margin: 0;
+}
+main section#accesorios-bonis article figure img {
+	width: 280px;
+    height: 280px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+}
+*/
+
+  /*se VIENEN LOS SRVICIOSSS BROOOO ME AMO UWU*/
+
+main  #accesorios-bonis { 
+	width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    
+    background: #131b26;
+	
+}
+
+
+
+main section#accesorios-bonis article#accesorios {
+	width: 50%;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+}
+
+main section#accesorios-bonis article#accesorios div#caja-que-centra {
+    width: 60%;
+    height: 400px;
+    display: block;
+    margin: 30px 0px 0 100px;
+    float: left;
+    position: relative;
+}
+
+main section#accesorios-bonis article#accesorios div#caja-que-centra h2 {
+
+/*    right: 733px;
+    top: 1698px;*/
+    margin: 0;
+    padding: 120px 0 0 0;
+
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.75em;
+    line-height: 66px;
+    /* or 132% */
+
+    
+    letter-spacing: 1px;
+
+    color: #131b26;
+
+}
+
+main section#accesorios-bonis article#accesorios p {
+
+    height: 206px;
+    left: 171px;
+    right: 730px;
+    top: 1861px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 125% */
+
+
+    color:  #131b26;
+
+}
+main section#accesorios-bonis article#foticos-accesorios {
+	width: 50%;
+    height: 720px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+}
+
+main section#accesorios-bonis article#accesorios figure {
+	width: 1280px;
+    height: 720px;
+    display: block;
+    margin: 0 20px 0 0;
+    float: left;
+    position: relative;
+}
+main section#accesorios-bonis article figure:nth-child(4) {
+	margin: 0;
+}
+main section#accesorios-bonis article figure img {
+	width: 1280px;
+    height: 720px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+}
+
+
+
+/*se NUESTROS SERVICIOSSSSS Y LOS SUPER KUL HORARIOSSSS ------ ----- -------- UWU*/
+
+
+
+
+main section#servisios-kul { 
+	width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 250px 0 0 0;
+    float: left;
+    position: relative;
+	
+    background: #131b26;
+}
+
+main section#servisios-kul article#iconos-horarios {
+	width: 40%;
+    height: 600px;
+    display: block;
+    margin: 0 0 0 160px;
+    float: left;
+    position: relative;
+    
+    
+    
+}
+
+main section#servisios-kul article#iconos-horarios figure {
+    width: 280px;
+    height: 280px;
+    display: block;
+    margin: 0 30px 30px 0;
+    float: left;
+    position: relative;
+    
+    background: rgba(196, 196, 196, 0.88);
+    
+}
+main section#servisios-kul article#iconos-horarios figure:nth-child(4) {
+	margin: 0;
+}
+main section#servisios-kul article#iconos-horarios figure img {
+	width: 280px;
+    height: 280px;
+    display: block;
+    margin: 0 30px 30px 0;
+    float: left;
+    position: relative;
+    
+}
+
+
+
+
+/*se NUESTROS servicioosss------ ----- -------- UWU*/
+
+
+
+main section#servisios-kul article#nuestros-servicios {
+	width: 50%;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    background: #131b26;
+}
+
+main section#servisios-kul article#nuestros-servicios div#caja-que-centra {
+    width: 80%;
+    height: 400px;
+    display: block;
+    margin: 18px 0px 0 166px;
+    float: left;
+    position: relative;
+}
+
+main section#servisios-kul article#nuestros-servicios div#caja-que-centra  h3 {
+
+/*    right: 733px;
+    top: 1698px;*/
+    margin: 0;
+    padding: 120px 0 0 0;
+
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.75em;
+    line-height: 66px;
+    /* or 132% */
+
+    
+    letter-spacing: 1px;
+
+    color: #E2E8FF;
+}
+
+main section#servisios-kul article#nuestros-servicios  p {
+
+    height: 206px;
+    left: 171px;
+    right: 730px;
+    top: 1861px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+
+
+    color: #D3D3D3;
+}
+
+
+/*se NUESTROS HORARIOSSSS ------ ----- -------- UWU*/
+
+
+main section#servisios-kul article#horarios-atencion {
+	width: 50%;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+
+    background: #131b26;
+
+     
+}
+
+main section#servisios-kul article#horarios-atencion div#caja-que-centra {
+    width: 80%;
+    height: 400px;
+    display: block;
+    margin: 18px 0px 0 166px;
+    float: left;
+    position: relative;
+}
+
+main section#servisios-kul article#horarios-atencion  div#caja-que-centra  h3 {
+
+/*    right: 733px;
+    top: 1698px;*/
+    margin: 0;
+    padding: 120px 0 0 0;
+
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.75em;
+    line-height: 66px;
+    /* or 132% */
+
+    
+    letter-spacing: 1px;
+
+    color: #E2E8FF;
+}
+
+main section#servisios-kul article#horarios-atencion  p {
+
+    height: 206px;
+    left: 171px;
+    right: 730px;
+    top: 1861px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+
+
+    color: #D3D3D3;
+}
+
+
+/* ------<<<<<<<---- MAPITA PICIOSO ----->>>>>>>--------*/
+
+main section#mapita{
+    width: 1200px;
+    height: 600px;
+    margin: 100px 380px;
+    float:left;
+    position: relative;
+    
+    background: #131b26;
+
+}
+
+
+
+footer {
+	width: 100%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    
+	background: #000000;
+    background-size: cover;
+}
+
+footer article{
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+footer article nav a#instagram {
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin: 126px 0px 0px 170px;
+    float: left;
+    position: relative;
+    
+    background: #ffffff;
+    text-align: center;
+    border-radius: 100%;
+    padding: 5px;
+    transition: all 0.3s ease-in;
+}
+    
+footer article nav a#instagram i {
+   text-align: center;
+    color: #000000;
+    
+    transition: all 0.3s ease-in;
+}
+
+footer article a#logo-footer {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 0 0 0;
+    float: left;
+    position: relative;
+    
+    
+    background-size: cover;
+    
+}
+
+footer article a#logo-footer img {
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+
+
